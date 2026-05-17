@@ -1,3 +1,6 @@
 from django.test import TestCase
 
-# Create your tests here.
+urlpatterns = [
+    path("test-session/", test_session_view, name="test-session"),
+]
+
